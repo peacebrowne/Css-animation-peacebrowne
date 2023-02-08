@@ -98,5 +98,23 @@ button{
     line-height: 1.4rem;
     margin-left: 1rem;
     border: none;
+    visibility: hidden;
+    animation: extra 3s ease-out 6s forwards;
+    font-weight: 500;
+    background-color: #1A73E8;
+    color: white;
+}
+
+
+@keyframes extra {
+    0%{
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
 }
 

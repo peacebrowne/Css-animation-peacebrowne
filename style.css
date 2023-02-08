@@ -19,10 +19,56 @@ main{
     padding: 1rem;
     background-color: white;
     border: 1px solid rgb(235, 233, 233);
+    display: flex;
+    justify-content: space-between;
 }
 
 .info{
     width: 15rem;
     padding: 1rem;
     background-color: red;
+    animation: text 3s ease-out 1s forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+
+img{
+    width: 200px;
+    height: 150px;
+    visibility: hidden;
+    animation: img 3s ease-out 5s forwards;
+}
+
+@keyframes img {
+    0%{
+        opacity: 0;
+        transform: translateY(15rem);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+}
+
+
+@keyframes text {
+    0%{
+        opacity: 0;
+        transform: translateX(15rem);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+h3,h5{
+    font-weight: 400;
+}
+
+h5{
+    padding-left: 1.5rem;
+}
+
+

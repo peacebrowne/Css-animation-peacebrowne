@@ -27,10 +27,8 @@ main{
 .info{
     width: 30rem;
     padding: 1rem;
-    /* background-color: brown; */
     animation: text 3s ease-out 1s forwards;
     visibility: hidden;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
 img{
@@ -41,8 +39,6 @@ img{
 .img{
     width: 250px;
     height: 250px;
-    /* border: 1px solid black; */
-    /* background-color: brown; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +51,7 @@ img{
 @keyframes img {
     0%{
         opacity: 0;
-        transform: translateY(15rem);
+        transform: translateY(10rem);
     }
     100%{
         opacity: 1;
@@ -91,4 +87,16 @@ h1{
     color: white;
 }
 
+p{
+    padding: 0.3rem 0 0.4rem 1rem;
+    line-height: 1.4rem;
+    color: rgb(216, 212, 212);
+}
+
+button{
+    padding: 0.5rem 1.5rem;
+    line-height: 1.4rem;
+    margin-left: 1rem;
+    border: none;
+}
 

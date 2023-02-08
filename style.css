@@ -97,14 +97,19 @@ button{
     padding: 0.5rem 1.5rem;
     line-height: 1.4rem;
     margin-left: 1rem;
-    border: none;
+    border: 1px solid #1a73e8;
     visibility: hidden;
     animation: extra 3s ease-out 6s forwards;
     font-weight: 500;
     background-color: #1A73E8;
     color: white;
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: white;
+    color: black;
+}
 
 @keyframes extra {
     0%{

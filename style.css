@@ -101,14 +101,14 @@ button{
     visibility: hidden;
     animation: extra 3s ease-out 6s forwards;
     font-weight: 500;
-    background-color: #1A73E8;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: white;
-    color: black;
+    background-color: #1A73E8;
+    color: white;
 }
 
 @keyframes extra {
